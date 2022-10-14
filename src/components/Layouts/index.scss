@@ -1,0 +1,8 @@
+// box shadow to give sylized depth to text box - note add a border to the text box.
+#box {
+    box-shadow: -8px 5px rgba(0,127,127, .6);
+}
+// transition between the two to give animated feel.
+#box {
+    box-shadow: -8px 5px rgba(0,127,127, .6), -16px 10px rgba(0,127,127, .3),2px -2px 15px 5px rgba(0,0,0,.15);
+}

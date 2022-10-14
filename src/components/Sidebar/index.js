@@ -32,27 +32,30 @@ const Sidebar = () => (
       >
         <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
       </NavLink>
+      <ul>
+        <li>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/jake-hill-5677191b5/"
+          >
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              color="#4d4d4e"
+            ></FontAwesomeIcon>
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/Git-Jake-Hill"
+          >
+            <FontAwesomeIcon icon={faGithub} color="#4d4d4e"></FontAwesomeIcon>
+          </a>
+        </li>
+      </ul>
     </nav>
-    <ul>
-      <li>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://www.linkedin.com/in/jake-hill-5677191b5/"
-        >
-          <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e"></FontAwesomeIcon>
-        </a>
-      </li>
-      <li>
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://github.com/Git-Jake-Hill"
-        >
-          <FontAwesomeIcon icon={faGithub} color="#4d4d4e"></FontAwesomeIcon>
-        </a>
-      </li>
-    </ul>
   </div>
 )
 
